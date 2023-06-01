@@ -1,0 +1,80 @@
+li:first-child{
+    color:black;
+}
+
+li::first-letter{
+    font-size: 25px;
+}
+
+#breakfast{
+    color: rgb(218, 185, 4);
+}
+
+#lunch{
+    color: orange;
+}
+
+#dinner{
+    color: blue;
+}
+
+a[href^="http"]{
+    color: red;
+    font-size: 25px;
+}
+
+a:visited {
+    color: rgb(55, 255, 5);
+}
+
+a:hover{
+    background-color: blueviolet;
+}
+
+p{
+    background-color: hsla(25, 100%, 40%, .3);
+}
+
+header{
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+#index_nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px 5px 5px;
+}
+
+#full_breakfast_background{
+
+  min-height: 100%;
+  min-width: 1024px;
+	
+ 
+  width: 100%;
+  height: auto;
+  background-size: cover;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#bigvd {
+    object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.viewport-header {
+    position: relative;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  } 
